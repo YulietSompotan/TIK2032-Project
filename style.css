@@ -1,0 +1,109 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(94,147,147);
+background: radial-gradient(circle, rgba(94,147,147,0.815091002221201) 2%, rgba(252,169,169,1) 100%);
+}
+
+header {
+    background: rgb(94,147,147);
+background: radial-gradient(circle, rgba(94,147,147,0.815091002221201) 2%, rgba(252,169,169,1) 100%);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header img {
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+    background: rgb(100, 144, 140);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+
+    color:rgb(255, 254, 254)
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+
+}
+
+nav {
+    background: rgb(94,147,147);
+    background: radial-gradient(circle, rgba(94,147,147,0.815091002221201) 2%, rgba(252,169,169,1) 100%);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+    background: rgb(94,147,147);
+    background: radial-gradient(circle, rgba(94,147,147,0.815091002221201) 2%, rgba(252,169,169,1) 100%);
+    padding: 10px;
+    text-align: center;
+    color:rgb(255, 253, 253)
+}
+
+
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.deskripsi {
+    background: rgb(100, 144, 140);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+
+header img:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+

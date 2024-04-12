@@ -2,8 +2,7 @@ body {
     font-family:'Times New Roman', Times, serif
     margin: 0;
     padding: 0;
-    background: rgb(94,147,147);
-background: radial-gradient(circle, rgba(94,147,147,0.815091002221201) 2%, rgba(252,169,169,1) 100%); 
+    background: linear-gradient(to left, lightblue, rgba(252,169,169,1));
 }
 
 h1 {
@@ -26,15 +25,26 @@ ul li {
     margin-right: 20px;
 }
 
+
 ul li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 254, 254);
     font-weight: bold;
-    transition: color 0.3s ease;
+    
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+
+    transition: .2s ease-in;
+    border-bottom: 2px solid var(--blue);
+
+    overflow: hidden;
+    position: relative;
 }
 
+
 ul li a:hover {
-    color: #ccc;
+    color: rgb(172, 111, 111);
+    background-color: rgb(255, 251, 251);
 }
 
 p {
@@ -54,4 +64,10 @@ p a {
 
 p a:hover {
     color:  #ccc; 
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
 }

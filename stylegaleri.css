@@ -10,7 +10,7 @@ body {
 h1 {
     text-align: center; 
     font-size: 36px; 
-    margin-top: 20px; /
+    margin-top: 20px; 
     color: #333; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
     padding: 10px 20px; 
@@ -24,6 +24,7 @@ ul {
     padding: 0;
     margin: 0;
     text-align: center;
+
 }
 
 ul li {
@@ -35,11 +36,22 @@ ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+
+    transition: .2s ease-in;
+    border-bottom: 2px solid var(--blue);
+
+    overflow: hidden;
+    position: relative;
 }
 
 ul li a:hover {
-    color: #666;
+    color: rgb(172, 111, 111);
+    background-color: rgb(255, 251, 251);
 }
+
 
 table {
     margin: 0 auto;
@@ -54,4 +66,24 @@ table img {
 
 table img:hover {
     transform: scale(1.05);
+}
+
+
+.moving-text {
+    display: inline-block;
+    color: rgb(17, 37, 47);
+}
+
+.animate-text {
+    animation: moveText 1s infinite;
+}
+
+@keyframes moveText {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
+
+footer{
+    text-align: center;
 }

@@ -34,7 +34,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #333;
+    color: rgb(51, 93, 130);
     font-weight: bold;
     
     border-radius: 2rem;
@@ -71,7 +71,7 @@ table img:hover {
 
 .moving-text {
     display: inline-block;
-    color: rgb(17, 37, 47);
+    color: rgb(51, 93, 130);
 }
 
 .animate-text {

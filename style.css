@@ -53,6 +53,8 @@ header h1{
 
 header ul {
     gap: 3rem;
+    display: flex;
+    list-style: none;
 }
 
 nav ul li a {
@@ -64,13 +66,6 @@ nav ul li a {
     font-weight: 700;
     cursor: pointer;
     text-decoration: none;
-}
-
-
-header ul{
-    display: flex;
-    gap: 5rem;
-    list-style: none;
 }
 
 header a{
@@ -104,7 +99,6 @@ header a:hover{
   justify-content: center;
   align-items: center;
   gap: 3rem;
-
 }
 
 img{

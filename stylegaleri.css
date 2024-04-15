@@ -2,21 +2,62 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: rgb(94,147,147);
-    background: radial-gradient(circle, rgba(94,147,147,0.815091002221201) 2%, rgba(252,169,169,1) 100%);
+    background: linear-gradient(to left, lightblue, rgba(252,169,169,1));
 }
 
 
-h1 {
-    text-align: center; 
-    font-size: 36px; 
-    margin-top: 20px; 
-    color: #333; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+
+header{
     padding: 10px 20px; 
     border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    transition: all 0.3s ease; 
+    box-shadow: 0 0 10px rgba(53, 46, 161, 0.1); 
+    transition: all 0.3s ease;
+}
+
+header nav{
+    height: 15vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header ul {
+    gap: 3rem;
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color:rgb(51, 93, 130);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    align-items: right;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.judul{
+    font-size: 1.8rem;
+    color: rgb(51, 93, 130);
+    justify-content: center;
+    align-items: center; 
+    min-height: 5vh;
+    width: 10%;
+    margin: auto;
+    padding: .5rem 1rem;
+    white-space: nowrap;
 }
 
 ul {
@@ -86,4 +127,5 @@ table img:hover {
 
 footer{
     text-align: center;
+    color: rgb(51, 93, 130);
 }

@@ -10,7 +10,6 @@ header{
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(53, 46, 161, 0.1); 
     transition: all 0.3s ease;
-    color: ;
 }
 
 header nav{
@@ -132,8 +131,22 @@ hr {
 
 }
 
-.justify-text {
+.judul {
     text-align: justify;
+    font-size:200%
+}
+
+.paragraph {
+    text-align: justify;
+}
+
+.hyperlink {
+    color: rgb(51, 93, 130);
+}
+
+.hyperlink:hover {
+    color: rgb(172, 111, 111);
+    text-decoration: none;
 }
 
 

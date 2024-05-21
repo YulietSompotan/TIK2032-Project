@@ -68,9 +68,9 @@ div ul {
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 30px;
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    width: 80%; 
 }
 
 ul {
